@@ -58,7 +58,7 @@ def calc_method_info(h:float, calculation_funciton):
     degree = (result - sin_integral) / (result_accurate - sin_integral)
     
     print("h = " + str(h) + " integral value = " + str(result))
-    print("approximation degree = " + str(degree))
+    print("approximation degree = " + str(math.log(degree, 2)))
     print()
 
 
